@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.registration-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.registration-container h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.registration-container label,
+.registration-container input
+ {
+    width: 50%;
+    display: block;
+}
+
+.registration-container button{
+    display: flex;
+    align-items: center;
+}
+
+/* Apply Google Material Design styles to input and button */
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container button {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.registration-container button {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.registration-container button:hover {
+    background-color: #357ae8;
+}
+
+.user-details-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.user-card h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Apply Google Material Icons to button */
+.registration-container button {
+    display: flex;
+    align-items: center;
+}
+
+.registration-container button .material-icons {
+    margin-right: 5px;
+}
